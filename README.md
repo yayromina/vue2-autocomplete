@@ -1,6 +1,8 @@
 # Vue 2 Autocomplete
 Autocomplete Component For [Vue 2](http://vuejs.org). It's based on [vue-autocomplete](https://github.com/BosNaufal/vue-autocomplete). [LIVE DEMO HERE!](https://rawgit.com/BosNaufal/vue2-autocomplete/master/index.html)
 
+Forked for concierge.com use for formatted airports
+
 <p align="center">
   <a href="./" title="Vue Autocomplete">
     <img src="./src/img/demo.gif" alt="vue Autocomplete component" title="Vue Autocomplete Component"/>
@@ -294,17 +296,3 @@ this.$refs.autocomplete.someMethod()
 
 #### setValue (String)
 To set the value of the autocomplete input
-
-
-
-## Thank You for Making this useful~
-
-## Let's talk about some projects with me
-Just Contact Me At:
-- Email: [bosnaufalemail@gmail.com](mailto:bosnaufalemail@gmail.com)
-- Skype Id: bosnaufal254
-- twitter: [@BosNaufal](https://twitter.com/BosNaufal)
-
-## License
-[MIT](http://opensource.org/licenses/MIT)
-Copyright (c) 2016 - forever Naufal Rabbani
