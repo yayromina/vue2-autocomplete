@@ -42,21 +42,16 @@
       </ul>
 
     </div>
-    <ErrorMessage name="name" />
   </div>
 </template>
 
 
 <script>
-import ErrorMessage from './ErrorMessage';
   /**
   * Forked from Vue2-autocomplete by http://github.com/BosNaufal
   */
 
 export default {
-    'components': {
-        ErrorMessage
-    },
     'props': {
         'id': String,
         'name': String,
