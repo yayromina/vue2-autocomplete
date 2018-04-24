@@ -45,6 +45,12 @@
     </div>
   </div>
 </template>
+<style>
+.autocomplete-list {
+    position: relative;
+    z-index: 4;
+}
+</style>
 
 
 <script>
