@@ -2,7 +2,7 @@
  * Copyright (c) 2016 Naufal Rabbani (http://github.com/BosNaufal),
  * ,Licensed Under MIT (http://opensource.org/licenses/MIT),
  * ,
- * ,Vue 2 Autocomplete @ Version 0.2.3,
+ * ,Vue 2 Autocomplete @ Version 0.2.5,
  * 
  */
 (function webpackUniversalModuleDefinition(root, factory) {
@@ -700,8 +700,8 @@ var render = function() {
           {
             name: "validate",
             rawName: "v-validate",
-            value: _vm.required ? "required" : "",
-            expression: "required ? 'required' : ''"
+            value: "required",
+            expression: "'required'"
           }
         ],
         ref: "input",
