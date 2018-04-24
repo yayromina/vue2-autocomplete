@@ -15,7 +15,7 @@
       @keydown="handleKeyDown"
       @focus="handleFocus"
       autocomplete="off"
-      v-validate="required ? 'required' : ''"
+      v-validate="'required'"
     />
 
     <div
