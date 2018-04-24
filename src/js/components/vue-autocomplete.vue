@@ -278,6 +278,7 @@ export default {
           // Callback Event
                 this.onHide ? this.onHide() : null;
                 this.showList = false;
+                this.errors.clear();
             }, 250 );
         },
 

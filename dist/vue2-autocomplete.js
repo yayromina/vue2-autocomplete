@@ -2,7 +2,7 @@
  * Copyright (c) 2016 Naufal Rabbani (http://github.com/BosNaufal),
  * ,Licensed Under MIT (http://opensource.org/licenses/MIT),
  * ,
- * ,Vue 2 Autocomplete @ Version 0.2.71,
+ * ,Vue 2 Autocomplete @ Version 0.2.72,
  * 
  */
 (function webpackUniversalModuleDefinition(root, factory) {
@@ -380,6 +380,7 @@ return /******/ (function(modules) { // webpackBootstrap
                 // Callback Event
                 _this2.onHide ? _this2.onHide() : null;
                 _this2.showList = false;
+                _this2.errors.clear();
             }, 250);
         },
         handleFocus: function handleFocus(event) {
