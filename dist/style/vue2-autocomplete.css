@@ -6,6 +6,11 @@
   -o-transition:all 0.3s ease-out;
 }
 
+.autocomplete {
+  position: relative;
+  z-index: 4;
+}
+
 .autocomplete ul{
   font-family: sans-serif;
   position: absolute;
@@ -16,6 +21,7 @@
   display: inline-block;
   min-width: 15%;
   margin-top: 10px;
+  z-index: 4;
 }
 
 .autocomplete ul:before{
