@@ -57,6 +57,7 @@
     "webpack-dev-server": "^2.4.2"
   },
   "dependencies": {
+    "vee-validate": "^2.0.6",
     "vue": "^2.4.2"
   }
 }
