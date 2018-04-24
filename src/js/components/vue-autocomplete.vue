@@ -15,7 +15,7 @@
       @keydown="handleKeyDown"
       @focus="handleFocus"
       autocomplete="off"
-      required="false"
+      novalidate="true"
       v-validate="'required'"
     />
 

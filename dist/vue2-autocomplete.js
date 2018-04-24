@@ -2,7 +2,7 @@
  * Copyright (c) 2016 Naufal Rabbani (http://github.com/BosNaufal),
  * ,Licensed Under MIT (http://opensource.org/licenses/MIT),
  * ,
- * ,Vue 2 Autocomplete @ Version 0.2.7,
+ * ,Vue 2 Autocomplete @ Version 0.2.71,
  * 
  */
 (function webpackUniversalModuleDefinition(root, factory) {
@@ -714,7 +714,7 @@ var render = function() {
           placeholder: _vm.placeholder,
           name: _vm.name,
           autocomplete: "off",
-          required: "false"
+          novalidate: "true"
         },
         domProps: { value: _vm.type },
         on: {
