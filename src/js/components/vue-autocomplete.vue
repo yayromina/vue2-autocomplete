@@ -14,7 +14,8 @@
       @blur="handleBlur"
       @keydown="handleKeyDown"
       @focus="handleFocus"
-      autocomplete="off"
+      autocomplete="off",
+      required="false"
       v-validate="'required'"
     />
 
