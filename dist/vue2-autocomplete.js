@@ -714,7 +714,6 @@ var render = function() {
           placeholder: _vm.placeholder,
           name: _vm.name,
           autocomplete: "off",
-          ",": "",
           required: "false"
         },
         domProps: { value: _vm.type },
